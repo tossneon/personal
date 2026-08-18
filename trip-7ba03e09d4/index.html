@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>칠순 기념 수원 2박 3일 · 8.28–8.30</title>
+<meta name="description" content="8월 28일 금요일부터 30일 일요일까지, 솔내음캠핑장 카라반. 화성어차 · 국궁체험 · 가족 스냅 촬영.">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#E9EDEA">
+<meta property="og:type" content="website">
+<meta property="og:title" content="칠순 기념 수원 2박 3일">
+<meta property="og:description" content="8.28 금 – 8.30 일 · 솔내음캠핑장 카라반 · 어른 4 아이 1">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --hanji:#E9EDEA;
+  --paper:#FDFDFC;
+  --ink:#1B211E;
+  --muted:#6B756F;
+  --line:#D2D9D4;
+  --noerok:#2E5F52;
+  --noerok-dim:#4A7C6E;
+  --jangdan:#C4552F;
+  --heat:#E8A87C;
+  --serif:'Gowun Batang', serif;
+  --sans:'Pretendard Variable', Pretendard, -apple-system, system-ui, sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--hanji);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  padding:0 0 72px;
+}
+.wrap{max-width:540px;margin:0 auto;padding:0 20px}
+
+/* ---------- hero ---------- */
+.hero{padding:52px 0 36px;border-bottom:1px solid var(--line)}
+.eyebrow{
+  font-family:var(--sans);font-size:12px;font-weight:600;
+  letter-spacing:.22em;color:var(--noerok);text-transform:uppercase;
+  display:flex;align-items:center;gap:10px;margin-bottom:18px;
+}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+.hero h1{
+  font-family:var(--serif);font-weight:700;
+  font-size:clamp(38px,11vw,52px);line-height:1.12;letter-spacing:-.02em;
+}
+.hero h1 em{font-style:normal;color:var(--noerok);display:block}
+.dates{
+  font-family:var(--serif);font-size:19px;margin-top:20px;
+  padding-top:18px;border-top:1px solid var(--line);
+}
+.dates b{font-weight:700}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.fact{
+  font-size:13px;color:var(--muted);
+  border:1px solid var(--line);border-radius:100px;
+  padding:5px 12px;background:var(--paper);text-decoration:none;
+}
+a.fact{color:var(--noerok);font-weight:500}
+
+/* ---------- link chips ---------- */
+.links{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+.chip{
+  font-size:12.5px;line-height:1.3;text-decoration:none;
+  color:var(--noerok);background:var(--paper);
+  border:1px solid var(--line);border-radius:100px;
+  padding:6px 12px;display:inline-flex;align-items:center;gap:5px;
+  -webkit-tap-highlight-color:transparent;
+}
+.chip:active{background:var(--hanji)}
+.chip:focus-visible{outline:2px solid var(--jangdan);outline-offset:2px}
+.chip.tel{color:var(--jangdan)}
+.chip svg{flex:0 0 auto;opacity:.75}
+
+/* ---------- premise ---------- */
+.premise{padding:32px 0;border-bottom:1px solid var(--line)}
+.premise p{font-size:15px;color:var(--muted);margin-bottom:14px}
+.premise p:last-child{margin-bottom:0}
+.premise strong{color:var(--ink);font-weight:600}
+
+/* ---------- day ---------- */
+.day{padding:40px 0 8px}
+.day+.day{border-top:1px solid var(--line)}
+.dayhead{display:flex;align-items:baseline;gap:12px;margin-bottom:6px}
+.daynum{font-family:var(--serif);font-size:13px;font-weight:700;color:var(--jangdan);letter-spacing:.14em}
+.daydate{font-family:var(--serif);font-size:30px;font-weight:700;letter-spacing:-.01em}
+.daydate span{font-size:17px;color:var(--muted);font-weight:400;margin-left:4px}
+.daytag{font-size:14px;color:var(--muted);margin-bottom:26px}
+.day.main .daytag{color:var(--noerok);font-weight:600}
+
+/* ---------- timeline ---------- */
+.tl{position:relative;padding-left:78px}
+.tl::before{content:"";position:absolute;left:62px;top:6px;bottom:14px;width:1px;background:var(--line)}
+.ev{position:relative;padding-bottom:24px}
+.ev:last-child{padding-bottom:0}
+.time{
+  position:absolute;left:-78px;top:1px;width:50px;text-align:right;
+  font-size:13px;font-weight:600;color:var(--muted);
+  font-variant-numeric:tabular-nums;letter-spacing:-.01em;
+}
+.dot{
+  position:absolute;left:-20px;top:8px;width:9px;height:9px;
+  border-radius:50%;background:var(--paper);border:1.5px solid var(--noerok-dim);
+}
+.ev.key .dot{background:var(--jangdan);border-color:var(--jangdan);width:11px;height:11px;left:-21px;top:7px}
+.ev.opt .dot{border-style:dashed;border-color:var(--muted)}
+.ev h3{font-size:17px;font-weight:600;line-height:1.4;letter-spacing:-.01em}
+.ev h3 small{font-weight:400;color:var(--muted);font-size:13px}
+.ev.key h3{font-family:var(--serif);font-size:21px;font-weight:700;color:var(--jangdan)}
+.ev p{font-size:14px;color:var(--muted);margin-top:3px}
+.ev .note{
+  display:inline-block;margin-top:8px;font-size:12.5px;
+  background:var(--paper);border:1px solid var(--line);
+  border-radius:5px;padding:5px 9px;color:var(--noerok);line-height:1.45;
+}
+
+/* car leg */
+.leg{position:relative;padding:0 0 24px;font-size:13px;color:var(--noerok-dim);font-weight:500}
+.leg::before{content:"";position:absolute;left:-16px;top:2px;width:1px;height:16px;background:var(--noerok-dim)}
+.leg span{background:var(--hanji);padding-right:8px}
+
+/* heat band */
+.heat{
+  position:relative;margin:0 0 24px -20px;padding:12px 16px 12px 20px;
+  border-left:3px solid var(--heat);
+  background:linear-gradient(90deg,rgba(232,168,124,.18),rgba(232,168,124,0));
+  border-radius:0 8px 8px 0;
+}
+.heat b{font-size:14px;font-weight:600;display:block}
+.heat span{font-size:13px;color:var(--muted)}
+
+/* ---------- blocks ---------- */
+.block{padding:40px 0;border-top:1px solid var(--line)}
+.block h2{font-family:var(--serif);font-size:25px;font-weight:700;margin-bottom:4px;letter-spacing:-.01em}
+.block>p.sub{font-size:14px;color:var(--muted);margin-bottom:22px}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
+th{font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.1em;padding-bottom:8px}
+td:last-child,th:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td small{display:block;font-size:12.5px;color:var(--muted);font-weight:400}
+td a{color:var(--noerok);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:1px}
+tr.walk td:last-child{color:var(--noerok);font-weight:600}
+
+/* ---------- checklist ---------- */
+.check li{list-style:none;display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line)}
+.check input{
+  appearance:none;-webkit-appearance:none;flex:0 0 auto;
+  width:20px;height:20px;margin-top:2px;border:1.5px solid var(--line);
+  border-radius:5px;background:var(--paper);cursor:pointer;
+  transition:background .15s,border-color .15s;
+}
+.check input:checked{background:var(--noerok);border-color:var(--noerok)}
+.check input:checked::after{
+  content:"";display:block;width:5px;height:10px;margin:2px auto 0;
+  border:solid var(--paper);border-width:0 2px 2px 0;transform:rotate(42deg);
+}
+.check input:focus-visible{outline:2px solid var(--jangdan);outline-offset:2px}
+.check .body{flex:1}
+.check label{font-size:15px;line-height:1.5;cursor:pointer;display:block}
+.check input:checked ~ .body label{color:var(--muted);text-decoration:line-through}
+.check .body small{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.urgent{color:var(--jangdan);font-weight:600}
+
+footer{padding:36px 0 0;border-top:1px solid var(--line);font-size:13px;color:var(--muted);line-height:1.7}
+footer strong{color:var(--ink)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+.rv.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">칠순 기념 가족여행</div>
+    <h1>수원<em>2박 3일</em></h1>
+    <div class="dates"><b>2026. 8. 28 금</b> — <b>8. 30 일</b></div>
+    <div class="facts">
+      <a class="fact" href="https://naver.me/56Imt07R" target="_blank" rel="noopener">솔내음캠핑장 카라반 ↗</a>
+      <span class="fact">어른 4 · 아이 1</span>
+      <span class="fact">자차 이동</span>
+    </div>
+  </header>
+
+  <section class="premise">
+    <p>8월 말이라 <strong>한낮 야외는 전부 피했습니다.</strong> 오후 1시부터 3시까지는 매일 숙소에서 쉬는 시간으로 비워뒀어요.</p>
+    <p>토요일이 메인입니다. <strong>화성어차 · 국궁체험 · 스냅 촬영이 전부 연무대 한 곳</strong>에 모여 있어서 차를 한 번만 대면 됩니다.</p>
+    <p>장소 이름 아래 버튼을 누르면 지도와 전화로 바로 연결됩니다.</p>
+  </section>
+
+  <!-- DAY 1 -->
+  <section class="day rv">
+    <div class="dayhead">
+      <span class="daynum">첫째 날</span>
+      <span class="daydate">8.28<span>금</span></span>
+    </div>
+    <p class="daytag">도착하고 자리 잡는 날</p>
+
+    <div class="tl">
+      <div class="ev">
+        <span class="time">11:00</span><span class="dot"></span>
+        <h3>출발</h3>
+        <p>금요일 오후 정체 전에 나서기</p>
+      </div>
+      <div class="leg"><span>차 · 목적지까지</span></div>
+
+      <div class="ev">
+        <span class="time">12:30</span><span class="dot"></span>
+        <h3>점심 — 수원왕갈비</h3>
+        <p>가보정 또는 본수원갈비</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/수원%20가보정" target="_blank" rel="noopener">가보정 지도</a>
+          <a class="chip tel" href="tel:0312114592">가보정 전화</a>
+          <a class="chip" href="https://map.naver.com/p/search/본수원갈비" target="_blank" rel="noopener">본수원갈비 지도</a>
+        </div>
+        <span class="note">5인 룸으로 미리 예약해두기</span>
+      </div>
+      <div class="leg"><span>차 20분</span></div>
+
+      <div class="ev">
+        <span class="time">14:30</span><span class="dot"></span>
+        <h3>스타필드 수원</h3>
+        <p>바비큐 장보기 + 시원한 데서 한숨 돌리기</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/스타필드%20수원" target="_blank" rel="noopener">지도</a>
+        </div>
+      </div>
+      <div class="leg"><span>차 15분</span></div>
+
+      <div class="ev">
+        <span class="time">16:00</span><span class="dot"></span>
+        <h3>체크인</h3>
+        <p>카라반 짐 풀고 아이 적응 시간</p>
+        <div class="links">
+          <a class="chip" href="https://naver.me/56Imt07R" target="_blank" rel="noopener">솔내음캠핑장</a>
+        </div>
+      </div>
+
+      <div class="ev">
+        <span class="time">18:30</span><span class="dot"></span>
+        <h3>바비큐 저녁</h3>
+        <p>첫날 저녁은 나가지 않고 캠핑장에서</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAY 2 -->
+  <section class="day main rv">
+    <div class="dayhead">
+      <span class="daynum">둘째 날</span>
+      <span class="daydate">8.29<span>토</span></span>
+    </div>
+    <p class="daytag">메인 — 연무대에 다 몰아넣은 날</p>
+
+    <div class="tl">
+      <div class="ev">
+        <span class="time">08:00</span><span class="dot"></span>
+        <h3>아침 산책</h3>
+        <p>칠보산 초입까지 도보 15분. 더워지기 전에만</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/수원%20칠보산" target="_blank" rel="noopener">지도</a>
+        </div>
+      </div>
+
+      <div class="ev">
+        <span class="time">12:00</span><span class="dot"></span>
+        <h3>점심</h3>
+        <p>캠핑장에서 간단히</p>
+      </div>
+
+      <div class="heat">
+        <b>13:00 – 15:00 · 쉬는 시간</b>
+        <span>하루 중 가장 더운 구간. 아이 낮잠, 부모님 휴식.</span>
+      </div>
+
+      <div class="ev">
+        <span class="time">15:30</span><span class="dot"></span>
+        <h3>연무대 도착 · 주차</h3>
+        <p>연무대 공영주차장. 여기서부터는 전부 걸어서 이동</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/연무대%20공영주차장" target="_blank" rel="noopener">주차장 지도</a>
+          <a class="chip tel" href="tel:0312514518">031-251-4518</a>
+        </div>
+        <span class="note">운영 09:00–18:00 안내 · 야간개장까지 볼 거면 출차 가능한지 확인</span>
+      </div>
+
+      <div class="ev">
+        <span class="time">15:40</span><span class="dot"></span>
+        <h3>화성어차 <small>— 순환형</small></h3>
+        <p>정조대왕 가마 모양 관광 트램. 연무대에서 출발해 성곽을 돌아 제자리로</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/화성어차%20탑승장" target="_blank" rel="noopener">탑승장 지도</a>
+          <a class="chip tel" href="tel:0312284686">031-228-4686</a>
+          <a class="chip" href="https://www.swcf.or.kr/?p=74&viewMode=view&idx=74" target="_blank" rel="noopener">요금·시간표 ↗</a>
+        </div>
+        <span class="note">어른 4,000원 · 어린이 1,500원 · 매표는 연무대 매표소</span>
+      </div>
+
+      <div class="ev">
+        <span class="time">16:30</span><span class="dot"></span>
+        <h3>연무대 국궁체험</h3>
+        <p>정조대왕이 활 쏘던 자리. 주차장에서 걸어서 바로</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/수원화성%20국궁체험장" target="_blank" rel="noopener">지도</a>
+          <a class="chip tel" href="tel:0312524676">031-252-4676</a>
+          <a class="chip" href="https://www.swcf.or.kr/?p=74&viewMode=view&idx=75" target="_blank" rel="noopener">체험 안내 ↗</a>
+        </div>
+        <span class="note">10발 2,000원 · 09:30–17:30 30분 간격 · 만 7세부터라 아이는 구경</span>
+      </div>
+
+      <div class="ev key">
+        <span class="time">17:30</span><span class="dot"></span>
+        <h3>가족 스냅 촬영</h3>
+        <p>방화수류정 · 화홍문 일대 — 활터에서 도보 5분</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/방화수류정" target="_blank" rel="noopener">방화수류정 지도</a>
+          <a class="chip" href="https://search.naver.com/search.naver?query=수원%20화성행궁%20가족스냅" target="_blank" rel="noopener">작가 찾기 ↗</a>
+        </div>
+        <span class="note">일몰 약 19:00 · 한 시간이 통째로 골든아워</span>
+      </div>
+
+      <div class="ev key">
+        <span class="time">19:00</span><span class="dot"></span>
+        <h3>칠순 저녁 · 케이크</h3>
+        <p>행리단길 또는 갈비집 룸</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/행리단길" target="_blank" rel="noopener">행리단길 지도</a>
+        </div>
+      </div>
+
+      <div class="ev opt">
+        <span class="time">20:00</span><span class="dot"></span>
+        <h3>화성행궁 야간개장 <small>— 아이 컨디션 보고</small></h3>
+        <p>유여택에서 무예24기 특별공연 30분, 무료</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/화성행궁" target="_blank" rel="noopener">지도</a>
+          <a class="chip" href="https://www.swcf.or.kr/" target="_blank" rel="noopener">수원문화재단 ↗</a>
+        </div>
+        <span class="note">야간개장 마지막 주말입니다 (8.30 종료)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAY 3 -->
+  <section class="day rv">
+    <div class="dayhead">
+      <span class="daynum">셋째 날</span>
+      <span class="daydate">8.30<span>일</span></span>
+    </div>
+    <p class="daytag">천천히 올라오는 날</p>
+
+    <div class="tl">
+      <div class="ev">
+        <span class="time">오전</span><span class="dot"></span>
+        <h3>카라반에서 놀기</h3>
+        <p>따로 일정 없음. 짐 정리하며 여유롭게</p>
+      </div>
+
+      <div class="ev">
+        <span class="time">11:00</span><span class="dot"></span>
+        <h3>체크아웃</h3>
+      </div>
+      <div class="leg"><span>차 30분 · 서울 방향 길목</span></div>
+
+      <div class="ev">
+        <span class="time">12:00</span><span class="dot"></span>
+        <h3>점심 — 백운호수 (의왕)</h3>
+        <p>청운누룽지백숙 · 금나래식당</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/청운누룽지백숙%20본점" target="_blank" rel="noopener">청운누룽지백숙</a>
+          <a class="chip tel" href="tel:0314260300">031-426-0300</a>
+          <a class="chip" href="https://map.naver.com/p/search/금나래식당%20의왕백운호수점" target="_blank" rel="noopener">금나래식당</a>
+        </div>
+        <span class="note">백숙집은 주말 대기가 깁니다. 도착 전 전화로 확인</span>
+      </div>
+
+      <div class="ev">
+        <span class="time">14:00</span><span class="dot"></span>
+        <h3>호수 카페</h3>
+        <p>카페라붐 · 명장시대. 산책로도 있음</p>
+        <div class="links">
+          <a class="chip" href="https://map.naver.com/p/search/의왕%20카페라붐" target="_blank" rel="noopener">카페라붐</a>
+          <a class="chip" href="https://map.naver.com/p/search/명장시대%20백운호수점" target="_blank" rel="noopener">명장시대</a>
+          <a class="chip" href="https://map.naver.com/p/search/백운호수" target="_blank" rel="noopener">백운호수</a>
+        </div>
+      </div>
+
+      <div class="ev">
+        <span class="time">16:00</span><span class="dot"></span>
+        <h3>귀가</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- 이동 -->
+  <section class="block rv">
+    <h2>차로 가야 하는 곳</h2>
+    <p class="sub">솔내음캠핑장 기준 · 이름을 누르면 지도로</p>
+    <table>
+      <tr><th>목적지</th><th>소요</th></tr>
+      <tr><td><a href="https://map.naver.com/p/search/수원%20가보정" target="_blank" rel="noopener">가보정</a><small>수원왕갈비</small></td><td>20분</td></tr>
+      <tr><td><a href="https://map.naver.com/p/search/스타필드%20수원" target="_blank" rel="noopener">스타필드 수원</a></td><td>15분</td></tr>
+      <tr><td><a href="https://map.naver.com/p/search/수원%20연무대%20주차장" target="_blank" rel="noopener">연무대</a><small>화성어차 · 국궁체험 · 방화수류정</small></td><td>25분</td></tr>
+      <tr><td><a href="https://map.naver.com/p/search/백운호수" target="_blank" rel="noopener">백운호수</a><small>의왕</small></td><td>30분</td></tr>
+      <tr class="walk"><td><a href="https://map.naver.com/p/search/수원%20칠보산" target="_blank" rel="noopener">칠보산 들머리</a></td><td>도보 15분</td></tr>
+    </table>
+  </section>
+
+  <!-- 체크리스트 -->
+  <section class="block rv">
+    <h2>출발 전에 할 일</h2>
+    <p class="sub">스냅 작가부터 잡으세요. 주말 골든아워가 제일 먼저 나갑니다</p>
+    <ul class="check">
+      <li><input type="checkbox" id="c1"><div class="body">
+        <label for="c1"><span class="urgent">스냅 작가 예약</span></label>
+        <small>8/29 토 17:30 시작, 5인 (어르신 2 · 부부 2 · 40개월)</small>
+        <div class="links"><a class="chip" href="https://search.naver.com/search.naver?query=수원%20화성행궁%20가족스냅" target="_blank" rel="noopener">네이버에서 작가 찾기 ↗</a></div>
+      </div></li>
+      <li><input type="checkbox" id="c2"><div class="body">
+        <label for="c2">가보정 점심 예약</label>
+        <small>8/28 금 12:30, 5인</small>
+        <div class="links"><a class="chip tel" href="tel:0312114592">031-211-4592</a></div>
+      </div></li>
+      <li><input type="checkbox" id="c3"><div class="body">
+        <label for="c3">연무대 주차장 야간 출차 확인</label>
+        <small>운영 09:00–18:00으로 안내됨. 야간개장까지 볼 경우 필수</small>
+        <div class="links"><a class="chip tel" href="tel:0312514518">031-251-4518</a></div>
+      </div></li>
+      <li><input type="checkbox" id="c4"><div class="body">
+        <label for="c4">화성어차 8/29 운행 시간표 확인</label>
+        <small>순환형 막차 시간. 매표는 연무대 매표소 현장</small>
+        <div class="links"><a class="chip tel" href="tel:0312284686">031-228-4686</a></div>
+      </div></li>
+      <li><input type="checkbox" id="c5"><div class="body">
+        <label for="c5">야간개장 8/29 진행 여부 확인</label>
+        <div class="links"><a class="chip" href="https://www.swcf.or.kr/" target="_blank" rel="noopener">수원문화재단 ↗</a></div>
+      </div></li>
+      <li><input type="checkbox" id="c6"><div class="body">
+        <label for="c6">칠순 케이크 준비</label>
+      </div></li>
+      <li><input type="checkbox" id="c7"><div class="body">
+        <label for="c7">바비큐 장보기</label>
+        <small>8/28 스타필드 수원에서</small>
+      </div></li>
+    </ul>
+  </section>
+
+  <footer>
+    수원에 케이블카는 없습니다. 전망은 팔달산 서장대인데 왕복 2시간 오르막이라 이번엔 뺐습니다.
+    토요일 오후는 <strong>주차 한 번으로 어차 · 활터 · 스냅이 전부 도보권</strong>입니다. 그게 이 일정의 핵심이에요.
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var els = document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){
+    Array.prototype.forEach.call(els,function(e){e.classList.add('on')});
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){ en.target.classList.add('on'); io.unobserve(en.target); }
+    });
+  },{threshold:.08, rootMargin:'0px 0px -40px 0px'});
+  Array.prototype.forEach.call(els,function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
